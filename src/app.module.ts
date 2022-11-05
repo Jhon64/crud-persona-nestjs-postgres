@@ -21,6 +21,7 @@ TypeOrmModule.forFeature([PersonaEntity]),
         rejectUnauthorized: false,
     }
     }),
+    
   ],
   controllers: [AppController],
   providers: [AppService],
